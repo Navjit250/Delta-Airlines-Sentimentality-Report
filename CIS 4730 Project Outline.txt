@@ -1,0 +1,66 @@
+﻿CIS 4730 Project - Northeast Airlines
+
+
+Project Proposal
+
+
+Business Problem:
+Identify customer dissatisfaction with Northeast Airlines as rewards members have declined in the previous five years. Use internal and external data to improve customer satisfaction and retention to increase net profit in 2023.
+
+
+
+
+Dataset
+Structured data 35%
+* Internal data: delay times, facilities, classes of a flight, duration of the flight, domestic or international, number of passengers, density, seating system, catering 
+* Satisfaction ratings from the Northeast Airline app
+Unstructured data 65% 
+* Company Website(surveys, comments)
+* Social media(TikTok, FaceBook, Twitter, Instagram, TripAdvisor)
+* YouTube videos and comments 
+* Survey responses from airports 
+* News & official media sources 
+
+
+Why Unstructured Data Management?
+Unstructured data gives more detailed indicators of dissatisfaction among passengers by giving more raw input to users. With the increase in the popularity of social media, more unstructured data is readily available and can be used to locate dissatisfied customers. Our data will rely heavily on information such as tweets, reviews, news articles, and videos, all of which are forms of unstructured data.
+
+
+Content
+* Customer reviews
+* Factors that affect customer satisfaction
+* Unique reviews from separate users
+* What customers had to say
+* The keywords mentioned the most
+* Quantitative data regarding structured information
+
+
+  
+
+  
+
+
+
+Sources: 
+Twitter US Airline Sentiment Dataset | Kaggle (Tweets)
+https://www.kaggle.com/code/marian447/skytrax-airline-survey-appears-biased (Ratings)
+
+
+Storage Medium: Distributed File System
+* Allows for the use of Hadoop with unstructured data (NoSQL)
+Storage Technique: Sharding
+Regarding sharding: the scale of the analysis report using sharding would allow for more data to be used, is also transparent to clients, and very accessible
+Batch processing utilizing Hadoop because we are utilizing such a large amount of data not for transactions but for processing data for the loyalty program.
+
+
+
+
+
+
+
+
+
+
+
+
+Emory: Go through the Kaggle dataset and visualize the top 10 most used words in the ‘Text’ attribute
